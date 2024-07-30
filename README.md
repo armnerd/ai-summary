@@ -43,3 +43,31 @@
    
    // 安装python开发工具 pycharm，开发调试使用。
 ```
+
+## 四.环境管理
+
+### 4.1 miniconda管理Python环境
+
+```bash
+# 安装miniconda 管理PY环境
+# https://docs.anaconda.com/miniconda/
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+
+# 创建专属虚拟环境例子
+conda create --name graphrag
+
+# Mac Environment Location: 
+/Users/jesse/miniconda3/envs/graphrag
+
+# Activate this environment
+conda activate graphrag
+
+# Deactivate an active environment
+conda deactivate
+```
