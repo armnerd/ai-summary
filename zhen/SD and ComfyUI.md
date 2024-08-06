@@ -64,18 +64,16 @@ python main.py
 ## 4. 自媒体
 
 * 甄子丹鬼畜动作 [ undo ]
-* 蒙娜丽莎唱歌 [ LivePortrait, MuseTalk ]
-* 视频卡通风格 [ undo ]
+* 蒙娜丽莎唱歌 [ LivePortrait ]
+* 视频卡通风格 [ AnimateDiff]
 * 孙悟空变声 [ undo ]
+* 黏土风格 [ undo ]
+* 换脸 [ 剪映 ]
 
-### 4.1 LivePortrait
+### LivePortrait
 
-> 面部图片a + 面部动作视频b = a 按照 b 的动作生成视频
+https://huggingface.co/KwaiVGI/LivePortrait
 
-https://huggingface.co/spaces/KwaiVGI/LivePortrait
+### AnimateDiff
 
-### 4.2 MuseTalk
-
-> 嘴形生成
-
-https://huggingface.co/spaces/TMElyralab/MuseTalk
+https://huggingface.co/ByteDance/AnimateDiff-Lightning
