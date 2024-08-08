@@ -54,12 +54,34 @@ python main.py
 
 ### 2.2 管理器
 
-### 2.3 模版
-
 ## 3. civitai
 
-* Model anf LoRA
-* https://civitai.com
+> https://civitai.com
+
+### 3.1 使用
+
+* checkpoint
+* LoRA
+* workflow
+
+### 3.2 贡献
+
+> Civitai LoRA Trainer
+
+https://education.civitai.com/using-civitai-the-on-site-lora-trainer
+https://education.civitai.com/lora-training-glossary
+
+##### step 1 选择类型
+
+* Character: A specific person or character, realistic or anime
+* Style: A time period, art style, or general look and feel
+* Concept: Objects, clothing, anatomy, poses, etc.
+
+##### step 2 上传数据集
+
+##### step 3 选择底模，选择训练参数
+
+##### step 4 提交、等待、测试
 
 ## 4. 自媒体
 

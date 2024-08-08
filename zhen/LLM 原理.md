@@ -5,3 +5,9 @@
 ## self-attention
 
 ## RLHF
+
+> Reinforcement Learning with Human Feedback
+
+## PEFT
+
+> Parameter Efficient Fine-Tuning
